@@ -1,3 +1,4 @@
+(function (){
 
 var playerO = 'url(img/o.svg)';
 var playerX = 'url(img/x.svg)';
@@ -120,3 +121,4 @@ function reset() {
 
 }
 playerTurn();
+}());
