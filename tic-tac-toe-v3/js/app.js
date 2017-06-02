@@ -36,6 +36,7 @@ function playerTurn () {
     function() {$(this).css('background-image', '')}),
 //box selection as long as class = box on click
   $('li').on('click', function() {
+    $('#player1')[0].className="players active";
     if($(this).attr('class') == ('box')) {
       $(this).css('background-image', player).addClass(boxFilled);
       if(boxFilled == 'box-filled-1'){
